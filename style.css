@@ -139,3 +139,33 @@ margin-left: 180px;
 margin-top: 10px;
 }
 /*-----------Sale section styles ends----*/
+
+/*Instagram section styles start*/
+.instagram-section-title{
+margin-top: 120px;
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.instagram-section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400; 
+    padding-top: 24px;
+    padding-bottom: 48px;  
+}
+.insta-section-photo-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    justify-content:space-around;
+    align-items: center;
+}
+.instagram-photos img{
+    width: 250px;
+    height: 250px;
+}
+/*Instagram section styles ends*/

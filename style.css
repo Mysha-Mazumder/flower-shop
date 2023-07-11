@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 .btn-primary{
     border-radius: 8px;
@@ -58,6 +59,7 @@ font-weight: 400;
 margin-bottom: 50px;
 }
 .featured-container{
+    width: 100%;
     display: flex;
     gap: 1rem;
  align-items: center;
@@ -157,7 +159,7 @@ font-weight: 800;
     padding-bottom: 48px;  
 }
 .insta-section-photo-container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     gap: 1rem;
@@ -170,6 +172,46 @@ font-weight: 800;
 }
 /*Instagram section styles ends*/
 /*latest deals section styles start*/
-
+.latest-deals-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.deals-section-img{
+  width: 100%;
+  margin: 100px auto;
+}
+.deals-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+}
+.deals-section-title{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.deals-section-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+padding-top: 12px;
+padding-bottom: 28px;
+}
+.deals-section-form input[type="email"]{
+background-color: #fff;
+border: none;
+border-radius: 4px;
+padding: 14px 120px;
+}
+.deals-section-form input[type="submit"]{
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin-left: 6px;
+}
 
 /*latest deals section styles end*/
